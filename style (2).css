@@ -1,29 +1,86 @@
-
-/* Commentaire du code ignoré avec slash etoile */
-
-
-
-/* Sélecteur d'élément */
-h1 {
-    color: red;  /* mettre le niveau de titre 1 en rouge*/
-    font-size: 60px;
-    text-align: center;
-  
+/* Réinitialisation de quelques styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Sélecteur de classe */
-.important {
-    font-weight: bold;  /*met en gras*/
-}
-
-/* Sélecteur d'ID */
-#citation {
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
     padding: 20px;
-    color: grey;
 }
 
-
-p {
-    background-color: #FBF8F6;
-
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+/* Introduction */
+.introduction p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Projet */
+.projet p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Liste des compétences */
+.competences ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.competences li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+footer a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
