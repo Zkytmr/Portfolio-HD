@@ -42,25 +42,33 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Introduction */
-.introduction p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-}
+/* Styles spécifiques aux différentes sections */
 
-/* Projet */
-.projet p {
-    font-size: 1.2em;
+/* "Qui sommes-nous" */
+.qui-sommes-nous p {
+    font-size: 1.1em;
     line-height: 1.8;
 }
 
-/* Liste des compétences */
-.competences ul {
-    list-style-type: square;
-    padding-left: 20px;
+/* "Nos secteurs d'intervention" */
+.secteurs-intervention p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
 
-.competences li {
+/* "Nos tarifs" */
+.nos-tarifs p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.nos-tarifs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nos-tarifs li {
     font-size: 1.1em;
     margin: 10px 0;
 }
