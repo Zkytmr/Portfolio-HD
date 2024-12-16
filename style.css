@@ -1,4 +1,4 @@
-/* Réinitialisation de quelques styles par défaut */
+  /* Réinitialisation de quelques styles par défaut */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ header {
     color: #0b0303;
     padding: 20px 0;
     text-align: center;
+    position: relative; /* img Capture d'écran 2024-12-12 145355.png*/
 }
 
 header h1 {
@@ -29,6 +30,15 @@ header h1 {
 header p {
     font-size: 1.2em;
     margin-top: 10px;
+}
+
+/* Positionner l'image en haut à gauche */
+header .logo {
+    position: absolute; /* Permet de positionner l'image de manière absolue dans le header */
+    top: 10px; /* Espace du haut */
+    left: 10px; /* Espace du côté gauche */
+    width: 100px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient les proportions de l'image */
 }
 
 /* Sections */
@@ -91,4 +101,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
